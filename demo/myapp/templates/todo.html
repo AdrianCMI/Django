@@ -1,0 +1,11 @@
+{%extends "base.html"%} {%block title%}Todo Page{%endblock%}
+{%block content%}
+<h1>To-Do List</h1>
+<ul>
+    {%for item in todo_items%}
+    <li>
+        {{item.title}}: {%if item.completed%}completed{%else%}Not complete{%endif%}
+    </li>
+    {%endfor%}
+</ul>
+{%endblock%}
