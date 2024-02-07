@@ -12,14 +12,14 @@ git clone https://github.com/AdrianCMI/Django.git
 ```
 ### Navigate into the project directory
 ```
-cd Django
-```
-### Install the independencies
-```
-pip install -r requirements.txt
+cd Django/demo
 ```
 ## Running the Application
 ```
 python manage.py runserver
 ```
 Access the application at `http://127.0.0.1:8000/`.
+## Actual urls
+- admin/
+- myapp/
+- myapp/todo/
